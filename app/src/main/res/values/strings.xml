@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Hasanah</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner_items">
+        <item>Takbirat al-ihram</item>
+        <item>Ruku</item>
+        <item>After ruku</item>
+        <item>Sujud</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string name="Takbirat">The Takbirat Al-Ihram is: The first condition: that he says it in full while standing. If he says it while bending for bowing if he is late, in order to catch the bowing of the Imam, his prayer is not valid. Rather, he must say it while standing, then after that say it for bowing. The second condition: that he says it with its letters, and does not replace one letter with another, such as replacing the hamza of {akbar} with a waw, and saying Allahu Akbar, and this is a common mistake, and it invalidates the prayer. Likewise, if he adds a letter to it, such as adding the hamza of interrogation to the word of Allah, and saying {Allahu Akbar}, or extending the fatha of the ba in {akbar} and adding an extra alif like this, {Allahu Akbar}, and Akbar is the name for the skin of a dead animal, so if he does any of that, his prayer is invalid, and it is not valid at all.</string>
+   <string name="Ruku">Hands on knees: Placing the hands on the knees so that the person can reach the knees with his hands.
+Straightening the back: It is recommended for the worshipper to make his back straight in bowing so that if water were placed on his back it would not spill.
+Tranquility in bowing: The worshipper must be calm in bowing, meaning that he should be stable in his movement and not rush it.
+Moderation: The head should be level with the back, neither raising it too much nor lowering it.
+Remembrance in bowing: It is recommended for the worshipper to say in his bowing “Glory be to my Lord, the Almighty” at least three times.</string>
+<string name="Afterruku">When rising from bowing, you should raise your back calmly and quietly, without rushing, until you return to a straight standing position. The Prophet (peace and blessings of Allaah be upon him) said in the hadeeth:
+
+“Then rise until you are standing straight” (narrated by al-Bukhari and Muslim).
+
+Calmness here means that you are completely stable and straight in your standing position before moving to prostration.
+
+When rising from bowing, it is recommended to say: “Allahu liman hamidah.” This is what was narrated from the Prophet (peace and blessings of Allaah be upon him):
+
+Abu Hurairah (may Allaah be pleased with him) said: “The Prophet (peace and blessings of Allaah be upon him) used to say: ‘Allahu liman hamidah’” (narrated by al-Bukhari).</string>
+
+<string name="Sujud">When going down to prostrate, you should say: "Allahu Akbar", and move into prostration slowly and calmly. Do not rush, because prostration is a place of humility.
+
+It is Sunnah to prostrate on seven limbs, as narrated from the Prophet (peace and blessings of Allaah be upon him):
+
+"I have been commanded to prostrate on seven limbs: the forehead (and he pointed to his nose), the hands, the knees, and the tips of the feet" (narrated by al-Bukhaari and Muslim).
+
+It is Sunnah in prostration to keep your back straight and not let your arms touch the ground. The Prophet (peace and blessings of Allaah be upon him) said:
+
+"Be moderate in prostration, and none of you should spread his arms out like a dog" (narrated by al-Bukhaari and Muslim).
+
+So, you should raise your elbows and not let them touch the ground, while making prostration moderate and balanced.</string>
+</resources>

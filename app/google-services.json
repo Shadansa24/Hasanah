@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073713395309",
+    "project_id": "hasanah-ace77",
+    "storage_bucket": "hasanah-ace77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073713395309:android:a1aa1a3b0096ccde903164",
+        "android_client_info": {
+          "package_name": "com.app.hasanah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS4hcVoighwoea0CwgDiPWeDfqMMaXQjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

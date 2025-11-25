@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color3"
+    tools:context=".UI.Outer.OuterUploadFileFragment">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:background="@color/background_color1"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/arrowBack"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/header"
+        app:layout_constraintTop_toBottomOf="@id/arrowBack" />
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rectangel"
+        android:padding="@dimen/_6sdp"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/view1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="Please choose a posture to correct:"
+            android:textColor="@color/btn_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/takbirat"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Takbirat al-ihram"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/btn_color"/>
+            <RadioButton
+                android:id="@+id/Ruku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruku"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/btn_color"/>
+            <RadioButton
+                android:id="@+id/afterRuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After ruku"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/btn_color"/>
+            <RadioButton
+                android:id="@+id/sujud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sujud"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/btn_color"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rectangel"
+        android:padding="@dimen/_6sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        app:layout_constraintTop_toBottomOf="@id/linear1">
+        <ImageView
+            android:id="@+id/uploadImage"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/upload_image" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="Upload File"
+            android:textColor="@color/btn_color"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape2"
+        android:ems="9"
+        android:visibility="gone"
+        android:text="Submit"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textColor="@color/text_color1"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear2"
+        />
+
+    <!--
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/userBottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_5sdp"
+            android:background="@color/background_color3"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_shape2"
+                android:ems="9"
+                android:text="Submit"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/text_size_medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

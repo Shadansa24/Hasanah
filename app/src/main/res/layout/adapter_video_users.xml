@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customVideoController">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_alignBottom="@id/videoView"
+       android:layout_alignStart="@id/videoView"
+       android:layout_alignEnd="@id/videoView"
+       android:padding="@dimen/_5sdp">
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/btn_color2"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00 / 0:00"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/videoView"
+        android:layout_alignTop="@id/videoView"
+        android:layout_alignEnd="@id/videoView"
+        android:layout_alignBottom="@id/videoView"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:src="@drawable/baseline_play_arrow_24" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="The scholars have renewed their opinion regarding bowing. He can say the Takbir of Ihram, then bow, and this Takbir will suffice for him in place of the Takbir of bowing, although it is better for him to say two Takbirs: the first for Ihram, and the second for bowing."
+        android:textColor="@color/skip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_below="@id/videoView"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/videoView"
+        android:layout_alignTop="@id/videoView"
+        android:layout_alignEnd="@id/videoView"
+        android:layout_alignBottom="@id/videoView"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+</RelativeLayout>

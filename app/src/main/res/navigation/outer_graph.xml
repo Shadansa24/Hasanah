@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outer_graph"
+    app:startDestination="@id/start">
+    <fragment
+        android:id="@+id/start"
+        android:name="com.app.hasanah.UI.Outer.OuterStartFragment"
+        tools:layout="@layout/fragment_outer_start" >
+        <action
+            android:id="@+id/action_start_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_start_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_start_to_outerUpload"
+            app:destination="@id/outerUpload" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.app.hasanah.UI.Outer.LoginFragment"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_login_to_start"
+            app:destination="@id/start" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.app.hasanah.UI.Outer.RegistrationFragment"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_register_to_start"
+            app:destination="@id/start" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.app.hasanah.UI.Outer.ForgotPasswordFragment"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPassword_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment android:id="@+id/outerUpload"
+        android:name="com.app.hasanah.UI.Outer.OuterUploadFileFragment"
+        tools:layout="@layout/fragment_outer_upload_file">
+        <action
+            android:id="@+id/action_outerUpload_to_start"
+            app:destination="@id/start" />
+        <action
+            android:id="@+id/action_outerUpload_to_outerResult"
+            app:destination="@id/outerResult" />
+    </fragment>
+    <fragment tools:layout="@layout/fragment_outer_result"
+        android:name="com.app.hasanah.UI.Outer.OuterResultFragment"
+        android:id="@+id/outerResult">
+        <action
+            android:id="@+id/action_outerResult_to_outerUpload"
+            app:destination="@id/outerUpload" />
+        <action
+            android:id="@+id/action_outerResult_to_outerAdvice"
+            app:destination="@id/outerAdvice" />
+    </fragment>
+    <fragment android:id="@+id/outerAdvice"
+        android:name="com.app.hasanah.UI.Outer.OuterAdviceFragment"
+        tools:layout="@layout/fragment_outer_advice">
+        <action
+            android:id="@+id/action_outerAdvice_to_outerResult"
+            app:destination="@id/outerResult" />
+    </fragment>
+</navigation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_graph"
+    app:startDestination="@id/home">
+    <fragment android:id="@+id/home"
+        tools:layout="@layout/fragment_user_home"
+        android:name="com.app.hasanah.UI.User.UserHomeFragment">
+        <action
+            android:id="@+id/action_home_to_uploadPhoto"
+            app:destination="@id/uploadPhoto" />
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment android:id="@+id/uploadPhoto"
+        android:name="com.app.hasanah.UI.User.UploadPhotoFragment"
+        tools:layout="@layout/fragment_upload_photo">
+        <action
+            android:id="@+id/action_uploadPhoto_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_uploadPhoto_to_result"
+            app:destination="@id/result" />
+        <action
+            android:id="@+id/action_uploadPhoto_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment android:id="@+id/result"
+        android:name="com.app.hasanah.UI.User.ResultFragment"
+        tools:layout="@layout/fragment_result">
+
+        <action
+            android:id="@+id/action_result_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_result_to_uploadPhoto"
+            app:destination="@id/uploadPhoto" />
+        <action
+            android:id="@+id/action_result_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_result_to_advice"
+            app:destination="@id/advice" />
+    </fragment>
+    <fragment android:id="@+id/profile"
+        android:name="com.app.hasanah.UI.User.UserProfileFragment"
+        tools:layout="@layout/fragment_user_profile">
+        <action
+            android:id="@+id/action_profile_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_profile_to_updatePassword"
+            app:destination="@id/updatePassword" />
+        <action
+            android:id="@+id/action_profile_to_uploadPhoto"
+            app:destination="@id/uploadPhoto" />
+    </fragment>
+    <fragment android:id="@+id/updatePassword"
+        tools:layout="@layout/fragment_update_password"
+        android:name="com.app.hasanah.UI.User.UpdatePasswordFragment">
+
+        <action
+            android:id="@+id/action_updatePassword_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_updatePassword_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_updatePassword_to_uploadPhoto"
+            app:destination="@id/uploadPhoto" />
+    </fragment>
+    <fragment android:id="@+id/advice"
+        android:label="Advice"
+        tools:layout="@layout/fragment_advice"
+        android:name="com.app.hasanah.UI.User.AdviceFragment">
+        <action
+            android:id="@+id/action_advice_to_result"
+            app:destination="@id/result" />
+        <action
+            android:id="@+id/action_advice_to_uploadPhoto"
+            app:destination="@id/uploadPhoto" />
+        <action
+            android:id="@+id/action_advice_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_advice_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+</navigation>
