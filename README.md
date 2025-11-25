@@ -7,8 +7,9 @@
   <a href="#-key-features">Key Features</a> •
   <a href="#-technical-highlights">Technical Details</a> •
   <a href="#-performance--results">Results</a> •
-  <a href="#tech-stack">Tech Stack</a>
+  <a href="#-tech-stack">Tech Stack</a>
 </p>
+
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python" alt="Python" />
