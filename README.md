@@ -19,13 +19,13 @@ An AI-powered mobile system that analyzes Muslim prayer postures using Computer 
 </details>
 🧠 Technical Highlights
 
-YOLOv8 for real-time object detection
+1. YOLOv8 for real-time object detection
 
-CNNs for deep feature extraction
+2. CNNs for deep feature extraction
 
-Pose Estimation for joint landmark analysis
+3. Pose Estimation for joint landmark analysis
 
-Custom Dataset: 3,225 labeled prayer posture images
+4. Custom Dataset: 3,225 labeled prayer posture images
 
 Performance:
 
