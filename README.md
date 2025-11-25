@@ -4,26 +4,17 @@ An AI-powered mobile system that analyzes Muslim prayer postures using Computer 
 
 🌟 Key Features
 
-YOLOv8-based posture detection
+1. YOLOv8-based posture detection
 
-Correction videos tailored to each error
+2. Correction videos tailored to each error
 
-User history tracking
+3. User history tracking
 
-Secure login system
+4. Secure login system
 
-Clean, modern mobile UI
+5. Clean, modern mobile UI
 
-Privacy-focused processing
-
-📱 App Preview
-<p align="center"> <img src="./images/app_preview.png" width="70%" alt="Hasanah App Preview"/> </p> <details> <summary><strong>View Screens Details</strong></summary>
-
-Register Screen
-Enter name, email, password, and birthdate.
-
-Login Screen
-Clean UI with Forgot Password support.
+6. Privacy-focused processing
 
 </details>
 🧠 Technical Highlights
