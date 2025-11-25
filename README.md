@@ -14,7 +14,6 @@
     <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python" alt="Python" />
     <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-FFDD00?style=for-the-badge&logo=ultralytics&logoColor=black" alt="YOLOv8" />
     <img src="https://img.shields.io/badge/Accuracy-93%25-success?style=for-the-badge" alt="Accuracy" />
-    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
   </p>
 
   
