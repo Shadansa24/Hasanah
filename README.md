@@ -7,7 +7,7 @@
   <a href="#-key-features">Key Features</a> •
   <a href="#-technical-highlights">Technical Details</a> •
   <a href="#-performance--results">Results</a> •
-  <a href="#-tech-stack">Tech Stack</a>
+  <a href="#tech-stack">Tech Stack</a>
 </p>
 
 <p>
@@ -100,7 +100,7 @@ Our model has been rigorously tested to ensure reliability.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
 <div align="center">
 
