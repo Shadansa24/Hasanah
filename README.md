@@ -137,7 +137,7 @@ How the user interacts with the Hasanah system:
 
 For a deep dive into the methodology, algorithms, and full project report, please refer to the official documentation.
 
-[<img src="https://img.shields.io/badge/Download-Full_Report_PDF-red?style=for-the-badge&logo=adobeacrobatreader" />](./📄Hasanah.pdf)
+[<img src="https://img.shields.io/badge/Download-Full_Report_PDF-red?style=for-the-badge&logo=adobeacrobatreader" />](./Hasanah.pdf)
 
 ---
 
