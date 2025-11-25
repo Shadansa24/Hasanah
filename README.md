@@ -3,21 +3,21 @@
 # 🕌 Hasanah
 ### Intelligent Prayer Posture Detection & Correction System
 
-  <p align="center">
-    <a href="#-key-features">Key Features</a> •
-    <a href="#-technical-highlights">Technical Details</a> •
-    <a href="#-performance">Results</a> •
-    <a href="#-tech-stack">Tech Stack</a>
-  </p>
+<p align="center">
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-technical-highlights">Technical Details</a> •
+  <a href="#-performance--results">Results</a> •
+  <a href="#-tech-stack">Tech Stack</a>
+</p>
 
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python" alt="Python" />
-    <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-FFDD00?style=for-the-badge&logo=ultralytics&logoColor=black" alt="YOLOv8" />
-    <img src="https://img.shields.io/badge/Accuracy-93%25-success?style=for-the-badge" alt="Accuracy" />
-  </p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-FFDD00?style=for-the-badge&logo=ultralytics&logoColor=black" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/Accuracy-93%25-success?style=for-the-badge" alt="Accuracy" />
+</p>
 
-  
-  </div>
+</div>
+
 
 ---
 
