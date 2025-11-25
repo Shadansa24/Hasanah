@@ -1,42 +1,57 @@
 🕌 Hasanah — Prayer Posture Detection & Correction System
 
-An AI-powered system that analyzes Muslim prayer postures using computer vision and deep learning, detects mistakes, and provides personalized correction videos to help users learn proper prayer movements.
+An AI-powered mobile system that analyzes Muslim prayer postures using Computer Vision, YOLOv8, CNNs, and pose estimation, detects mistakes, and provides personalized correction videos to guide users toward accurate prayer movements.
 
 🌟 Key Features
 
-Detects prayer posture errors using YOLOv8 + CNNs
+YOLOv8-based posture detection
 
-Shows correction videos tailored to each mistake
+Correction videos tailored to each error
 
-Tracks user history and progress
+User history tracking
 
-Mobile-friendly interface
+Secure login system
 
-Secure login and privacy-focused design
+Clean, modern mobile UI
 
-📖 Project Overview
+Privacy-focused processing
 
-Hasanah helps users improve their prayer performance by analyzing uploaded images/videos and detecting incorrect postures such as Ruku’, Sujud, Takbeer, and hand placement errors.
-The system uses a custom dataset and advanced CV techniques to provide accurate, real-time guidance.
+📱 App Preview
+<p align="center"> <img src="./images/app_preview.png" width="70%" alt="Hasanah App Preview"/> </p> <details> <summary><strong>View Screens Details</strong></summary>
 
+Register Screen
+Enter name, email, password, and birthdate.
+
+Login Screen
+Clean UI with Forgot Password support.
+
+</details>
 🧠 Technical Highlights
 
 YOLOv8 for real-time object detection
 
-CNN-based feature extraction
+CNNs for deep feature extraction
 
-Pose Estimation for joint landmark detection
+Pose Estimation for joint landmark analysis
 
-Dataset: 3,225 images (Training/Validation/Testing)
+Custom Dataset: 3,225 labeled prayer posture images
 
-Performance: 93% accuracy, 91% recall, 95% mAP50
+Performance:
+
+✔ 93% Accuracy
+
+✔ 91% Recall
+
+✔ 95% mAP50
 
 🏗 System Architecture
-
-(Replace with your architecture image)
+<details> <summary><strong>Click to Expand Architecture Diagram</strong></summary>
 ![Architecture Diagram](./images/architecture.png)
 
+</details>
+
 📊 Results
+<details> <summary><strong>Show Performance Metrics</strong></summary>
 | Metric   | Score   |
 | -------- | ------- |
 | Accuracy | **93%** |
@@ -44,19 +59,37 @@ Performance: 93% accuracy, 91% recall, 95% mAP50
 | mAP50    | **95%** |
 | mAP50–95 | **76%** |
 
-▶ How to Use
+Add your validation images:
 
-Upload an image of a prayer posture
+![Validation Output](./images/validation.png)
 
-System analyzes movement
+</details>
 
-Incorrect posture(s) are highlighted
+🛠️ Tech Stack
+🔹 Core AI & ML
+<p> <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv" height="45"/> </p>
+🔹 Backend & Tools
+<p> <img src="https://skillicons.dev/icons?i=firebase,fastapi,git,github,linux" height="45"/> </p>
+🔹 Additional
+<p> <img src="https://img.shields.io/badge/YOLOv8-FFDD00?style=for-the-badge&logo=ultralytics&logoColor=black"/> <img src="https://img.shields.io/badge/Computer_Vision-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Deep_Learning-purple?style=for-the-badge"/> </p>
 
-Correction video is displayed
+▶ How to Run
 
-User can review past attempts in history
+
+Steps:
+
+1. Upload a prayer posture image
+
+2. System detects correct/incorrect posture
+
+3. Highlighted errors appear
+
+4. Correction video is displayed
+
+5. History logs are stored for later review
 
 📄 Full Documentation
 
-👉 See the full project report here:
-./Hasanah.pdf
+Upload your full report and link it here:
+
+📄 Hasanah.pdf
